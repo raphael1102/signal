@@ -1645,32 +1645,32 @@ footer {
   .catalogue-title { font-size: 18px; }
 
   .content-panel-inner { padding: 36px 20px; }
-  /* Mobile drawer at 480px */
-@media (max-width: 480px) {
+  header { padding: 0 16px; gap: 12px; }
+  /* ...all your other 480px rules... */
+
   .page-body {
-    grid-template-columns: 1fr; /* remove fixed sidebar column */
+    grid-template-columns: 1fr;
     position: relative;
   }
 
   .sidebar {
     position: fixed;
-    top: 64px; /* below header */
+    top: 64px;
     left: 0;
     bottom: 0;
     width: 220px;
     background: var(--cream-mid);
-    transform: translateX(-100%); /* hidden by default */
+    transform: translateX(-100%);
     transition: transform 0.3s ease;
     z-index: 1000;
   }
 
-  /* When sidebar-open is active, slide it in */
   .page-body.sidebar-open .sidebar {
     transform: translateX(0);
   }
 }
 
-}
+
 
 /* Mobile/tablet sidebar drawer */
 
