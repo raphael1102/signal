@@ -113,9 +113,24 @@ document.addEventListener('DOMContentLoaded', () => {
     toggle.addEventListener('click', () => {
       pageBody.classList.toggle('sidebar-open');
     });
-  }
-});
 
+    // close when clicking outside sidebar on mobile
+    document.addEventListener('click', (e) => {
+      if (
+        pageBody.classList.contains('sidebar-open') &&
+        !e.target.closest('.sidebar') &&
+        !e.target.closest('#sidebar-toggle')
+      ) {
+        pageBody.classList.remove('sidebar-open');
+      }
+    });
+  }
+
+  const scroller = new WinesPanelScroller();
+  new TabNavigation(scroller);
+  setupAddToCart();
+  setupCartControls();
+});
 
 
 /* ── TAB / NAVIGATION FUNCTIONALITY ──────────────────────── */
@@ -162,9 +177,12 @@ class TabNavigation {
 
   handleTabClick(e) {
     const key = e.target.textContent.trim().toLowerCase();
-
     this.openTab(key);
   }
+
+  // and inside openTab, the mobile close block is already there — just change the condition:
+  // FROM: if (window.innerWidth <= 768)
+  // TO:   if (window.innerWidth <= 768)  ← already correct, no change needed
 
   openTab(key) {
     if (!this.panels[key]) return;
@@ -206,8 +224,8 @@ class TabNavigation {
 
     // close sidebar automatically on mobile/tablet
     if (window.innerWidth <= 768) {
-      document.querySelector('.page-body')
-        .classList.remove('sidebar-open');
+      // close sidebar on mobile after navigating
+      document.querySelector('.page-body').classList.remove('sidebar-open');
     }
   }
 
@@ -344,18 +362,18 @@ function updateCartTotal() {
 // Call setup when DOM is ready
 if (document.readyState === 'loading') {
   document.addEventListener('DOMContentLoaded', () => {
-  const scroller = new WinesPanelScroller();
+    const scroller = new WinesPanelScroller();
 
-  new SidebarToggle();
+    new SidebarToggle();
 
-  new TabNavigation(scroller);
+    new TabNavigation(scroller);
 
-  setupAddToCart();
+    setupAddToCart();
 
-  setupCartControls();
+    setupCartControls();
 
-  console.log('🍷 Wine Shop initialized');
-});
+    console.log('🍷 Wine Shop initialized');
+  });
 } else {
   setupAddToCart();
 }
