@@ -9,6 +9,7 @@
       href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=side_navigation"
     />
     <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="light-theme.css" />
   </head>
   <body>
     <!-- HEADER -->
@@ -27,7 +28,7 @@
       </a>
 
       <div class="header-line"></div>
-
+      <button id="theme-toggle" title="Switch to light mode">🌙</button>
       <!-- cart button replaces sidebar toggle position on RIGHT -->
       <button id="cart-btn" class="cart-btn" aria-label="Open cart">
         🛒
@@ -54,7 +55,7 @@
         <div class="tab-panel active" id="tab-main">
           <section class="hero">
             <div>
-              <h1 class="hero-title">WINE</h1>
+              <h1 class="hero-title">Wine</h1>
               <p class="hero-subtitle">Quality Selections</p>
               <p class="hero-date">Since 2022</p>
               <div class="hero-rule"></div>
@@ -1216,5 +1217,6 @@
     </footer>
 
     <script src="script.js"></script>
+    <script src="light-theme.js"></script>
   </body>
 </html>
