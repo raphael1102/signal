@@ -1,5 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=Cormorant+Garamond:ital,wght@0,300;0,400;1,300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=IM+Fell+French+Canon&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&display=swap');
 
 :root {
   --cream: #1a1a18;
@@ -21,7 +22,7 @@ html, body {
 }
 
 body {
-  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-family: 'DM Sans', Georgia, serif;
   background-color: var(--cream);
   color: var(--ink);
   height: 100vh;
@@ -106,7 +107,7 @@ header {
 }
 
 .logo-text .brand {
-  font-family: 'Playfair Display', serif;
+  font-family: 'DM Serif Display', serif;
   font-size: 12px;
   font-weight: 700;
   letter-spacing: 0.2em;
@@ -115,7 +116,7 @@ header {
 }
 
 .logo-text .sub {
-  font-family: 'Playfair Display', serif;
+  font-family: 'DM Serif Display', serif;
   font-size: 9px;
   font-weight: 400;
   letter-spacing: 0.3em;
@@ -163,7 +164,7 @@ header {
   color: var(--cream);
   border-radius: 50%;
   font-size: 7px;
-  font-family: 'Cormorant Garamond', serif;
+  font-family: 'DM Sans', serif;
   font-weight: 700;
   display: flex;
   align-items: center;
@@ -222,7 +223,7 @@ header {
 }
 
 .sidebar li {
-  font-family: 'Cormorant Garamond', serif;
+  font-family: 'Cinzel', serif;
   font-size: 10px;
   font-weight: 400;
   letter-spacing: 0.25em;
@@ -316,7 +317,7 @@ main {
 }
 
 .hero-title {
-  font-family: 'IM Fell French Canon', serif;
+  font-family: 'Cinzel', serif;
   font-size: clamp(72px, 9vw, 110px);
   font-weight: 400;
   line-height: 0.88;
@@ -326,7 +327,7 @@ main {
 }
 
 .hero-subtitle {
-  font-family: 'Playfair Display', serif;
+  font-family: 'Cinzel', serif;
   font-size: clamp(13px, 1.6vw, 18px);
   font-weight: 400;
   letter-spacing: 0.28em;
@@ -461,7 +462,7 @@ main {
   padding: 10px 0;
   background: transparent;
   border: 1px solid rgba(255,255,255,0.3);
-  font-family: 'Cormorant Garamond', serif;
+  font-family: 'DM Sans', serif;
   font-size: 10px;
   letter-spacing: 0.2em;
   text-transform: uppercase;
@@ -479,7 +480,7 @@ main {
 
 /* ── WINE CARD TEXT ── */
 .wine-name {
-  font-family: 'Playfair Display', serif;
+  font-family: 'DM Serif Display', serif;
   font-size: 12px;
   font-weight: 700;
   letter-spacing: 0.12em;
@@ -494,7 +495,7 @@ main {
   letter-spacing: 0.22em;
   text-transform: uppercase;
   color: var(--gold);
-  font-family: 'Playfair Display', serif;
+  font-family: 'DM Serif Display', serif;
   font-weight: 700;
   margin-bottom: 10px;
   text-align: center;
@@ -524,7 +525,7 @@ main {
   text-transform: uppercase;
   padding: 4px 10px;
   color: var(--gold);
-  font-family: 'Cormorant Garamond', serif;
+  font-family: 'DM Sans', serif;
   border-radius: 20px;
   background: rgba(212, 180, 106, 0.1);
   border: 1px solid rgba(212, 180, 106, 0.3);
@@ -539,7 +540,7 @@ main {
 }
 
 .wine-price {
-  font-family: 'Playfair Display', serif;
+  font-family: 'DM Serif Display', serif;
   font-size: 20px;
   font-weight: 400;
   color: #fff;
@@ -551,7 +552,7 @@ main {
   font-size: 10px;
   color: rgba(255,255,255,0.45);
   letter-spacing: 0.12em;
-  font-family: 'Cormorant Garamond', serif;
+  font-family: 'DM Sans', serif;
   font-style: italic;
 }
 
@@ -628,7 +629,7 @@ footer {
 }
 
 .partner-name {
-  font-family: 'Playfair Display', serif;
+  font-family: 'DM Serif Display', serif;
   font-size: 10px;
   letter-spacing: 0.28em;
   text-transform: uppercase;
@@ -675,12 +676,12 @@ footer {
   letter-spacing: 0.28em;
   text-transform: uppercase;
   color: var(--gold);
-  font-family: 'Playfair Display', serif;
+  font-family: 'DM Serif Display', serif;
   white-space: nowrap;
 }
 
 .catalogue-title {
-  font-family: 'IM Fell French Canon', serif;
+  font-family: 'DM Serif Display', serif;
   font-size: 22px;
   font-weight: 400;
   color: var(--ink);
@@ -699,7 +700,7 @@ footer {
   background: transparent;
   border: 1px solid var(--border);
   color: var(--ink-muted);
-  font-family: 'Cormorant Garamond', serif;
+  font-family: 'DM Sans', serif;
   font-size: 9px;
   letter-spacing: 0.16em;
   text-transform: uppercase;
@@ -785,7 +786,7 @@ footer {
   letter-spacing: 0.16em;
   text-transform: uppercase;
   color: var(--gold);
-  font-family: 'Playfair Display', serif;
+  font-family: 'DM Serif Display', serif;
   margin-bottom: 2px;
   opacity: 0.85;
   white-space: nowrap;
@@ -795,11 +796,11 @@ footer {
 }
 
 .catalogue-name {
-  font-family: 'Playfair Display', serif;
+  font-family: 'DM Serif Display', serif;
   font-size: 11px;
   font-weight: 700;
   color: var(--ink);
-  letter-spacing: 0.03em;
+  letter-spacing: 0.1em;
   margin-bottom: 1px;
   line-height: 1.2;
   white-space: nowrap;
@@ -829,7 +830,7 @@ footer {
 }
 
 .catalogue-price {
-  font-family: 'Playfair Display', serif;
+  font-family: 'DM Serif Display', serif;
   font-size: 12px;
   font-weight: 600;
   color: var(--gold);
@@ -842,7 +843,7 @@ footer {
   background: transparent;
   border: 1px solid var(--border);
   color: var(--ink-muted);
-  font-family: 'Cormorant Garamond', serif;
+  font-family: 'DM Sans', serif;
   font-size: 8px;
   letter-spacing: 0.16em;
   text-transform: uppercase;
@@ -966,12 +967,12 @@ footer {
   letter-spacing: 0.28em;
   text-transform: uppercase;
   color: var(--gold);
-  font-family: 'Playfair Display', serif;
+  font-family: 'DM Serif Display', serif;
   margin-bottom: 10px;
 }
 
 .content-title {
-  font-family: 'IM Fell French Canon', serif;
+  font-family: 'DM Serif Display', serif;
   font-size: clamp(36px, 5vw, 56px);
   font-weight: 400;
   color: var(--ink);
@@ -1013,7 +1014,7 @@ footer {
   letter-spacing: 0.22em;
   text-transform: uppercase;
   color: var(--ink-muted);
-  font-family: 'Cormorant Garamond', serif;
+  font-family: 'DM Sans', serif;
 }
 
 .form-input {
@@ -1022,7 +1023,7 @@ footer {
   border-radius: 2px;
   padding: 12px 14px;
   color: var(--ink);
-  font-family: 'Cormorant Garamond', serif;
+  font-family: 'DM Sans', serif;
   font-size: 14px;
   outline: none;
   transition: border-color 0.2s ease;
@@ -1047,7 +1048,7 @@ footer {
   background: transparent;
   border: 1px solid var(--border-strong);
   color: var(--ink-light);
-  font-family: 'Cormorant Garamond', serif;
+  font-family: 'DM Sans', serif;
   font-size: 11px;
   letter-spacing: 0.2em;
   text-transform: uppercase;
@@ -1082,14 +1083,14 @@ footer {
   letter-spacing: 0.22em;
   text-transform: uppercase;
   color: var(--ink-muted);
-  font-family: 'Cormorant Garamond', serif;
+  font-family: 'DM Sans', serif;
   flex-shrink: 0;
   width: 72px;
   padding-top: 2px;
 }
 
 .contact-value {
-  font-family: 'Playfair Display', serif;
+  font-family: 'DM Serif Display', serif;
   font-size: 15px;
   color: var(--ink);
   line-height: 1.6;
@@ -1143,11 +1144,11 @@ footer {
   letter-spacing: 0.28em;
   text-transform: uppercase;
   color: var(--gold);
-  font-family: 'Playfair Display', serif;
+  font-family: 'DM Serif Display', serif;
 }
 
 .cart-col-title {
-  font-family: 'IM Fell French Canon', serif;
+  font-family: 'DM Serif Display', serif;
   font-size: 22px;
   font-weight: 400;
   color: var(--ink);
@@ -1158,7 +1159,7 @@ footer {
   font-size: 10px;
   letter-spacing: 0.14em;
   color: var(--ink-muted);
-  font-family: 'Cormorant Garamond', serif;
+  font-family: 'DM Sans', serif;
   font-style: italic;
   margin-left: auto;
 }
@@ -1223,7 +1224,7 @@ footer {
 }
 
 .cart-row-name {
-  font-family: 'Playfair Display', serif;
+  font-family: 'DM Serif Display', serif;
   font-size: 12px;
   font-weight: 700;
   color: var(--ink);
@@ -1268,7 +1269,7 @@ footer {
 }
 
 .cart-qty-num {
-  font-family: 'Playfair Display', serif;
+  font-family: 'DM Serif Display', serif;
   font-size: 13px;
   color: var(--ink);
   min-width: 16px;
@@ -1276,7 +1277,7 @@ footer {
 }
 
 .cart-row-price {
-  font-family: 'Playfair Display', serif;
+  font-family: 'DM Serif Display', serif;
   font-size: 13px;
   color: var(--gold);
   white-space: nowrap;
@@ -1319,7 +1320,7 @@ footer {
 }
 
 .cart-empty-text {
-  font-family: 'Playfair Display', serif;
+  font-family: 'DM Serif Display', serif;
   font-size: 14px;
   color: var(--ink-muted);
   text-align: center;
@@ -1336,7 +1337,7 @@ footer {
 }
 
 .cart-summary-title {
-  font-family: 'IM Fell French Canon', serif;
+  font-family: 'DM Serif Display', serif;
   font-size: 18px;
   font-weight: 400;
   color: var(--ink);
@@ -1361,11 +1362,11 @@ footer {
   letter-spacing: 0.2em;
   text-transform: uppercase;
   color: var(--ink-muted);
-  font-family: 'Cormorant Garamond', serif;
+  font-family: 'DM Sans', serif;
 }
 
 .cart-summary-value {
-  font-family: 'Playfair Display', serif;
+  font-family: 'DM Serif Display', serif;
   font-size: 14px;
   color: var(--ink);
 }
@@ -1395,7 +1396,7 @@ footer {
   border-radius: 2px;
   padding: 9px 12px;
   color: var(--ink);
-  font-family: 'Cormorant Garamond', serif;
+  font-family: 'DM Sans', serif;
   font-size: 12px;
   outline: none;
   transition: border-color 0.2s ease;
@@ -1414,7 +1415,7 @@ footer {
   background: transparent;
   border: 1px solid var(--border);
   color: var(--ink-muted);
-  font-family: 'Cormorant Garamond', serif;
+  font-family: 'DM Sans', serif;
   font-size: 9px;
   letter-spacing: 0.14em;
   text-transform: uppercase;
@@ -1435,7 +1436,7 @@ footer {
   padding: 14px 0;
   background: var(--gold);
   border: none;
-  font-family: 'Cormorant Garamond', serif;
+  font-family: 'DM Sans', serif;
   font-size: 11px;
   letter-spacing: 0.22em;
   text-transform: uppercase;
@@ -1462,7 +1463,7 @@ footer {
   text-align: center;
   font-style: italic;
   margin-top: 10px;
-  font-family: 'Cormorant Garamond', serif;
+  font-family: 'DM Sans', serif;
 }
 
 /* ══════════════════════════════════════════
@@ -1646,7 +1647,6 @@ footer {
 
   .content-panel-inner { padding: 36px 20px; }
   header { padding: 0 16px; gap: 12px; }
-  /* ...all your other 480px rules... */
 
   .page-body {
     grid-template-columns: 1fr;
@@ -1700,7 +1700,7 @@ footer {
   background: transparent;
   border: none;
   color: var(--ink-muted);
-  font-family: 'Cormorant Garamond', serif;
+  font-family: 'DM Sans', serif;
   font-size: 11px;
   letter-spacing: 0.14em;
   text-transform: uppercase;
@@ -1720,12 +1720,12 @@ footer {
   letter-spacing: 0.28em;
   text-transform: uppercase;
   color: var(--gold);
-  font-family: 'Playfair Display', serif;
+  font-family: 'DM Serif Display', serif;
   margin-bottom: 8px;
 }
 
 .checkout-title {
-  font-family: 'IM Fell French Canon', serif;
+  font-family: 'DM Serif Display', serif;
   font-size: clamp(32px, 4vw, 48px);
   font-weight: 400;
   color: var(--ink);
@@ -1749,7 +1749,7 @@ footer {
   letter-spacing: 0.22em;
   text-transform: uppercase;
   color: var(--ink-muted);
-  font-family: 'Cormorant Garamond', serif;
+  font-family: 'DM Sans', serif;
   margin-bottom: 12px;
 }
 
@@ -1781,13 +1781,13 @@ footer {
   letter-spacing: 0.16em;
   text-transform: uppercase;
   color: var(--ink-muted);
-  font-family: 'Cormorant Garamond', serif;
+  font-family: 'DM Sans', serif;
   flex-shrink: 0;
   width: 110px;
 }
 
 .bank-value {
-  font-family: 'Playfair Display', serif;
+  font-family: 'Google Sans', serif;
   font-size: 13px;
   color: var(--ink);
   letter-spacing: 0.04em;
@@ -1811,7 +1811,7 @@ footer {
 }
 
 .bank-acct-num {
-  font-family: 'Playfair Display', serif;
+  font-family: 'DM Serif Display', serif;
   font-size: 16px;
   color: var(--gold);
   letter-spacing: 0.12em;
@@ -1848,7 +1848,7 @@ footer {
   font-size: 9px;
   letter-spacing: 0.12em;
   color: rgba(100, 200, 100, 0.8);
-  font-family: 'Cormorant Garamond', serif;
+  font-family: 'DM Sans', serif;
   opacity: 0;
   transition: opacity 0.2s ease;
   pointer-events: none;
@@ -1880,7 +1880,7 @@ footer {
 }
 
 .checkout-order-name {
-  font-family: 'Playfair Display', serif;
+  font-family: 'DM Serif Display', serif;
   font-size: 12px;
   color: var(--ink);
   flex: 1;
@@ -1893,12 +1893,12 @@ footer {
   font-size: 10px;
   color: var(--ink-muted);
   font-style: italic;
-  font-family: 'Cormorant Garamond', serif;
+  font-family: 'DM Sans', serif;
   flex-shrink: 0;
 }
 
 .checkout-order-price {
-  font-family: 'Playfair Display', serif;
+  font-family: 'DM Serif Display', serif;
   font-size: 12px;
   color: var(--gold);
   flex-shrink: 0;
@@ -1934,11 +1934,11 @@ footer {
   letter-spacing: 0.18em;
   text-transform: uppercase;
   color: var(--ink-muted);
-  font-family: 'Cormorant Garamond', serif;
+  font-family: 'DM Sans', serif;
 }
 
 .checkout-total-value {
-  font-family: 'Playfair Display', serif;
+  font-family: 'Google Sans', serif;
   font-size: 13px;
   color: var(--ink);
 }
@@ -1956,7 +1956,7 @@ footer {
   color: var(--ink-muted);
   font-weight: 300;
   margin-bottom: 20px;
-  font-family: 'Cormorant Garamond', serif;
+  font-family: 'DM Sans', serif;
 }
 
 .checkout-confirm-btn {
@@ -1964,7 +1964,7 @@ footer {
   padding: 16px 0;
   background: var(--gold);
   border: none;
-  font-family: 'Cormorant Garamond', serif;
+  font-family: 'DM Sans', serif;
   font-size: 12px;
   letter-spacing: 0.2em;
   text-transform: uppercase;
