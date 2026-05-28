@@ -4,11 +4,13 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>IJ'S Wine Shop</title>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=side_navigation" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=side_navigation"
+    />
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-
     <!-- HEADER -->
     <header>
       <!-- sidebar toggle moved to LEFT -->
@@ -35,7 +37,6 @@
 
     <!-- BODY LAYOUT -->
     <div class="page-body">
-
       <!-- SIDEBAR -->
       <nav class="sidebar">
         <ul>
@@ -49,10 +50,8 @@
 
       <!-- MAIN -->
       <main>
-
         <!-- ═══ TAB: MAIN ═══ -->
         <div class="tab-panel active" id="tab-main">
-
           <section class="hero">
             <div>
               <h1 class="hero-title">WINE</h1>
@@ -69,10 +68,15 @@
           </section>
 
           <div class="wines-panel">
-
             <div class="wine-card">
-              <img src="https://images.unsplash.com/photo-1743184579851-5ec9972100b3?w=520&q=80&auto=format&fit=crop" alt="Status Cava Brut bottle" loading="lazy" />
-              <div class="wine-card-footer"><p class="wine-name">Status</p></div>
+              <img
+                src="https://images.unsplash.com/photo-1743184579851-5ec9972100b3?w=520&q=80&auto=format&fit=crop"
+                alt="Status Cava Brut bottle"
+                loading="lazy"
+              />
+              <div class="wine-card-footer">
+                <p class="wine-name">Status</p>
+              </div>
               <div class="wine-card-overlay">
                 <p class="wine-tag">Spain · NV</p>
                 <p class="wine-name">Status</p>
@@ -89,8 +93,14 @@
             </div>
 
             <div class="wine-card">
-              <img src="https://images.unsplash.com/photo-1701541065406-286a94081f63?w=520&q=80&auto=format&fit=crop" alt="Campari bottle" loading="lazy" />
-              <div class="wine-card-footer"><p class="wine-name">Campari</p></div>
+              <img
+                src="https://images.unsplash.com/photo-1701541065406-286a94081f63?w=520&q=80&auto=format&fit=crop"
+                alt="Campari bottle"
+                loading="lazy"
+              />
+              <div class="wine-card-footer">
+                <p class="wine-name">Campari</p>
+              </div>
               <div class="wine-card-overlay">
                 <p class="wine-tag">Italy · NV</p>
                 <p class="wine-name">Campari</p>
@@ -107,8 +117,14 @@
             </div>
 
             <div class="wine-card">
-              <img src="https://images.unsplash.com/photo-1619451050621-83cb7aada2d7?w=520&q=80&auto=format&fit=crop" alt="Martell VSOP Cognac bottle" loading="lazy" />
-              <div class="wine-card-footer"><p class="wine-name">Martell VSOP</p></div>
+              <img
+                src="https://images.unsplash.com/photo-1619451050621-83cb7aada2d7?w=520&q=80&auto=format&fit=crop"
+                alt="Martell VSOP Cognac bottle"
+                loading="lazy"
+              />
+              <div class="wine-card-footer">
+                <p class="wine-name">Martell VSOP</p>
+              </div>
               <div class="wine-card-overlay">
                 <p class="wine-tag">Cognac, France · NV</p>
                 <p class="wine-name">Martell VSOP</p>
@@ -125,8 +141,14 @@
             </div>
 
             <div class="wine-card">
-              <img src="https://images.unsplash.com/photo-1700893417465-fd14dbc27ffb?w=520&q=80&auto=format&fit=crop" alt="Martin Richman Pinot Noir bottle" loading="lazy" />
-              <div class="wine-card-footer"><p class="wine-name">Martin Richman</p></div>
+              <img
+                src="https://images.unsplash.com/photo-1700893417465-fd14dbc27ffb?w=520&q=80&auto=format&fit=crop"
+                alt="Martin Richman Pinot Noir bottle"
+                loading="lazy"
+              />
+              <div class="wine-card-footer">
+                <p class="wine-name">Martin Richman</p>
+              </div>
               <div class="wine-card-overlay">
                 <p class="wine-tag">California · 2019</p>
                 <p class="wine-name">Martin Richman</p>
@@ -143,8 +165,14 @@
             </div>
 
             <div class="wine-card">
-              <img src="https://images.unsplash.com/photo-1534221905680-192a9a88ac81?w=520&q=80&auto=format&fit=crop" alt="Johnnie Walker Red Label bottle" loading="lazy" />
-              <div class="wine-card-footer"><p class="wine-name">Johnnie Walker Red Label</p></div>
+              <img
+                src="https://images.unsplash.com/photo-1534221905680-192a9a88ac81?w=520&q=80&auto=format&fit=crop"
+                alt="Johnnie Walker Red Label bottle"
+                loading="lazy"
+              />
+              <div class="wine-card-footer">
+                <p class="wine-name">Johnnie Walker Red Label</p>
+              </div>
               <div class="wine-card-overlay">
                 <p class="wine-tag">Scotland · NV</p>
                 <p class="wine-name">Johnnie Walker Red Label</p>
@@ -159,7 +187,6 @@
               </div>
               <button class="wine-add">Add to Selection</button>
             </div>
-
           </div>
         </div>
 
@@ -174,165 +201,627 @@
                 <button class="filter-btn" data-filter="red">Red</button>
                 <button class="filter-btn" data-filter="white">White</button>
                 <button class="filter-btn" data-filter="rosé">Rosé</button>
-                <button class="filter-btn" data-filter="champagne">Champagne</button>
+                <button class="filter-btn" data-filter="champagne">
+                  Champagne
+                </button>
               </div>
             </div>
             <div class="catalogue-grid">
-
               <div class="catalogue-item" data-type="red">
-                <div class="catalogue-item-img"><div class="bottle-skeleton"><div class="skeleton-foil"></div><div class="skeleton-neck"></div><div class="skeleton-shoulder"></div><div class="skeleton-body"><div class="skeleton-label"><div class="skeleton-line skeleton-line--short"></div><div class="skeleton-line skeleton-line--long"></div><div class="skeleton-line skeleton-line--mid"></div></div></div></div></div>
-                <div class="catalogue-item-info"><p class="catalogue-tag">North Carolina · 2020</p><p class="catalogue-name">Duplin Hat</p><p class="catalogue-type">Red, Sweet</p></div>
-                <div class="catalogue-item-meta"><span class="wine-badge">11% ABV</span><span class="wine-badge">Muscadine</span></div>
-                <p class="catalogue-price">₦22,000</p><button class="catalogue-add">Add</button>
+                <div class="catalogue-item-img">
+                  <div class="bottle-skeleton">
+                    <div class="skeleton-foil"></div>
+                    <div class="skeleton-neck"></div>
+                    <div class="skeleton-shoulder"></div>
+                    <div class="skeleton-body">
+                      <div class="skeleton-label">
+                        <div class="skeleton-line skeleton-line--short"></div>
+                        <div class="skeleton-line skeleton-line--long"></div>
+                        <div class="skeleton-line skeleton-line--mid"></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="catalogue-item-info">
+                  <p class="catalogue-tag">North Carolina · 2020</p>
+                  <p class="catalogue-name">Duplin Hat</p>
+                  <p class="catalogue-type">Red, Sweet</p>
+                </div>
+                <div class="catalogue-item-meta">
+                  <span class="wine-badge">11% ABV</span
+                  ><span class="wine-badge">Muscadine</span>
+                </div>
+                <p class="catalogue-price">₦22,000</p>
+                <button class="catalogue-add">Add</button>
               </div>
 
               <div class="catalogue-item" data-type="white">
-                <div class="catalogue-item-img"><div class="bottle-skeleton"><div class="skeleton-foil"></div><div class="skeleton-neck"></div><div class="skeleton-shoulder"></div><div class="skeleton-body"><div class="skeleton-label"><div class="skeleton-line skeleton-line--short"></div><div class="skeleton-line skeleton-line--long"></div><div class="skeleton-line skeleton-line--mid"></div></div></div></div></div>
-                <div class="catalogue-item-info"><p class="catalogue-tag">Napa Valley · 2019</p><p class="catalogue-name">First Press, Chardonnay</p><p class="catalogue-type">White, Semi Dry</p></div>
-                <div class="catalogue-item-meta"><span class="wine-badge">13% ABV</span><span class="wine-badge">Oak Aged</span></div>
-                <p class="catalogue-price">₦28,000</p><button class="catalogue-add">Add</button>
+                <div class="catalogue-item-img">
+                  <div class="bottle-skeleton">
+                    <div class="skeleton-foil"></div>
+                    <div class="skeleton-neck"></div>
+                    <div class="skeleton-shoulder"></div>
+                    <div class="skeleton-body">
+                      <div class="skeleton-label">
+                        <div class="skeleton-line skeleton-line--short"></div>
+                        <div class="skeleton-line skeleton-line--long"></div>
+                        <div class="skeleton-line skeleton-line--mid"></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="catalogue-item-info">
+                  <p class="catalogue-tag">Napa Valley · 2019</p>
+                  <p class="catalogue-name">First Press, Chardonnay</p>
+                  <p class="catalogue-type">White, Semi Dry</p>
+                </div>
+                <div class="catalogue-item-meta">
+                  <span class="wine-badge">13% ABV</span
+                  ><span class="wine-badge">Oak Aged</span>
+                </div>
+                <p class="catalogue-price">₦28,000</p>
+                <button class="catalogue-add">Add</button>
               </div>
 
               <div class="catalogue-item" data-type="red">
-                <div class="catalogue-item-img"><div class="bottle-skeleton"><div class="skeleton-foil"></div><div class="skeleton-neck"></div><div class="skeleton-shoulder"></div><div class="skeleton-body"><div class="skeleton-label"><div class="skeleton-line skeleton-line--short"></div><div class="skeleton-line skeleton-line--long"></div><div class="skeleton-line skeleton-line--mid"></div></div></div></div></div>
-                <div class="catalogue-item-info"><p class="catalogue-tag">Bordeaux · 2018</p><p class="catalogue-name">Château Margaux</p><p class="catalogue-type">Red, Dry</p></div>
-                <div class="catalogue-item-meta"><span class="wine-badge">14% ABV</span><span class="wine-badge">Cabernet</span></div>
-                <p class="catalogue-price">₦95,000</p><button class="catalogue-add">Add</button>
+                <div class="catalogue-item-img">
+                  <div class="bottle-skeleton">
+                    <div class="skeleton-foil"></div>
+                    <div class="skeleton-neck"></div>
+                    <div class="skeleton-shoulder"></div>
+                    <div class="skeleton-body">
+                      <div class="skeleton-label">
+                        <div class="skeleton-line skeleton-line--short"></div>
+                        <div class="skeleton-line skeleton-line--long"></div>
+                        <div class="skeleton-line skeleton-line--mid"></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="catalogue-item-info">
+                  <p class="catalogue-tag">Bordeaux · 2018</p>
+                  <p class="catalogue-name">Château Margaux</p>
+                  <p class="catalogue-type">Red, Dry</p>
+                </div>
+                <div class="catalogue-item-meta">
+                  <span class="wine-badge">14% ABV</span
+                  ><span class="wine-badge">Cabernet</span>
+                </div>
+                <p class="catalogue-price">₦95,000</p>
+                <button class="catalogue-add">Add</button>
               </div>
 
               <div class="catalogue-item" data-type="white">
-                <div class="catalogue-item-img"><div class="bottle-skeleton"><div class="skeleton-foil"></div><div class="skeleton-neck"></div><div class="skeleton-shoulder"></div><div class="skeleton-body"><div class="skeleton-label"><div class="skeleton-line skeleton-line--short"></div><div class="skeleton-line skeleton-line--long"></div><div class="skeleton-line skeleton-line--mid"></div></div></div></div></div>
-                <div class="catalogue-item-info"><p class="catalogue-tag">Marlborough · 2021</p><p class="catalogue-name">Cloudy Bay, Sauvignon</p><p class="catalogue-type">White, Dry</p></div>
-                <div class="catalogue-item-meta"><span class="wine-badge">12.5% ABV</span><span class="wine-badge">Crisp</span></div>
-                <p class="catalogue-price">₦35,000</p><button class="catalogue-add">Add</button>
+                <div class="catalogue-item-img">
+                  <div class="bottle-skeleton">
+                    <div class="skeleton-foil"></div>
+                    <div class="skeleton-neck"></div>
+                    <div class="skeleton-shoulder"></div>
+                    <div class="skeleton-body">
+                      <div class="skeleton-label">
+                        <div class="skeleton-line skeleton-line--short"></div>
+                        <div class="skeleton-line skeleton-line--long"></div>
+                        <div class="skeleton-line skeleton-line--mid"></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="catalogue-item-info">
+                  <p class="catalogue-tag">Marlborough · 2021</p>
+                  <p class="catalogue-name">Cloudy Bay, Sauvignon</p>
+                  <p class="catalogue-type">White, Dry</p>
+                </div>
+                <div class="catalogue-item-meta">
+                  <span class="wine-badge">12.5% ABV</span
+                  ><span class="wine-badge">Crisp</span>
+                </div>
+                <p class="catalogue-price">₦35,000</p>
+                <button class="catalogue-add">Add</button>
               </div>
 
               <div class="catalogue-item" data-type="rosé">
-                <div class="catalogue-item-img"><div class="bottle-skeleton"><div class="skeleton-foil"></div><div class="skeleton-neck"></div><div class="skeleton-shoulder"></div><div class="skeleton-body"><div class="skeleton-label"><div class="skeleton-line skeleton-line--short"></div><div class="skeleton-line skeleton-line--long"></div><div class="skeleton-line skeleton-line--mid"></div></div></div></div></div>
-                <div class="catalogue-item-info"><p class="catalogue-tag">Provence · 2022</p><p class="catalogue-name">Whispering Angel</p><p class="catalogue-type">Rosé, Dry</p></div>
-                <div class="catalogue-item-meta"><span class="wine-badge">13% ABV</span><span class="wine-badge">Grenache</span></div>
-                <p class="catalogue-price">₦42,000</p><button class="catalogue-add">Add</button>
+                <div class="catalogue-item-img">
+                  <div class="bottle-skeleton">
+                    <div class="skeleton-foil"></div>
+                    <div class="skeleton-neck"></div>
+                    <div class="skeleton-shoulder"></div>
+                    <div class="skeleton-body">
+                      <div class="skeleton-label">
+                        <div class="skeleton-line skeleton-line--short"></div>
+                        <div class="skeleton-line skeleton-line--long"></div>
+                        <div class="skeleton-line skeleton-line--mid"></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="catalogue-item-info">
+                  <p class="catalogue-tag">Provence · 2022</p>
+                  <p class="catalogue-name">Whispering Angel</p>
+                  <p class="catalogue-type">Rosé, Dry</p>
+                </div>
+                <div class="catalogue-item-meta">
+                  <span class="wine-badge">13% ABV</span
+                  ><span class="wine-badge">Grenache</span>
+                </div>
+                <p class="catalogue-price">₦42,000</p>
+                <button class="catalogue-add">Add</button>
               </div>
 
               <div class="catalogue-item" data-type="red">
-                <div class="catalogue-item-img"><div class="bottle-skeleton"><div class="skeleton-foil"></div><div class="skeleton-neck"></div><div class="skeleton-shoulder"></div><div class="skeleton-body"><div class="skeleton-label"><div class="skeleton-line skeleton-line--short"></div><div class="skeleton-line skeleton-line--long"></div><div class="skeleton-line skeleton-line--mid"></div></div></div></div></div>
-                <div class="catalogue-item-info"><p class="catalogue-tag">Barossa Valley · 2017</p><p class="catalogue-name">Penfolds Grange</p><p class="catalogue-type">Red, Full Bodied</p></div>
-                <div class="catalogue-item-meta"><span class="wine-badge">14.5% ABV</span><span class="wine-badge">Shiraz</span></div>
-                <p class="catalogue-price">₦180,000</p><button class="catalogue-add">Add</button>
+                <div class="catalogue-item-img">
+                  <div class="bottle-skeleton">
+                    <div class="skeleton-foil"></div>
+                    <div class="skeleton-neck"></div>
+                    <div class="skeleton-shoulder"></div>
+                    <div class="skeleton-body">
+                      <div class="skeleton-label">
+                        <div class="skeleton-line skeleton-line--short"></div>
+                        <div class="skeleton-line skeleton-line--long"></div>
+                        <div class="skeleton-line skeleton-line--mid"></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="catalogue-item-info">
+                  <p class="catalogue-tag">Barossa Valley · 2017</p>
+                  <p class="catalogue-name">Penfolds Grange</p>
+                  <p class="catalogue-type">Red, Full Bodied</p>
+                </div>
+                <div class="catalogue-item-meta">
+                  <span class="wine-badge">14.5% ABV</span
+                  ><span class="wine-badge">Shiraz</span>
+                </div>
+                <p class="catalogue-price">₦180,000</p>
+                <button class="catalogue-add">Add</button>
               </div>
 
               <div class="catalogue-item" data-type="champagne">
-                <div class="catalogue-item-img"><div class="bottle-skeleton"><div class="skeleton-foil"></div><div class="skeleton-neck"></div><div class="skeleton-shoulder"></div><div class="skeleton-body"><div class="skeleton-label"><div class="skeleton-line skeleton-line--short"></div><div class="skeleton-line skeleton-line--long"></div><div class="skeleton-line skeleton-line--mid"></div></div></div></div></div>
-                <div class="catalogue-item-info"><p class="catalogue-tag">Reims, France · NV</p><p class="catalogue-name">Veuve Clicquot</p><p class="catalogue-type">Champagne, Brut</p></div>
-                <div class="catalogue-item-meta"><span class="wine-badge">12% ABV</span><span class="wine-badge">Pinot Noir</span></div>
-                <p class="catalogue-price">₦68,000</p><button class="catalogue-add">Add</button>
+                <div class="catalogue-item-img">
+                  <div class="bottle-skeleton">
+                    <div class="skeleton-foil"></div>
+                    <div class="skeleton-neck"></div>
+                    <div class="skeleton-shoulder"></div>
+                    <div class="skeleton-body">
+                      <div class="skeleton-label">
+                        <div class="skeleton-line skeleton-line--short"></div>
+                        <div class="skeleton-line skeleton-line--long"></div>
+                        <div class="skeleton-line skeleton-line--mid"></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="catalogue-item-info">
+                  <p class="catalogue-tag">Reims, France · NV</p>
+                  <p class="catalogue-name">Veuve Clicquot</p>
+                  <p class="catalogue-type">Champagne, Brut</p>
+                </div>
+                <div class="catalogue-item-meta">
+                  <span class="wine-badge">12% ABV</span
+                  ><span class="wine-badge">Pinot Noir</span>
+                </div>
+                <p class="catalogue-price">₦68,000</p>
+                <button class="catalogue-add">Add</button>
               </div>
 
               <div class="catalogue-item" data-type="red">
-                <div class="catalogue-item-img"><div class="bottle-skeleton"><div class="skeleton-foil"></div><div class="skeleton-neck"></div><div class="skeleton-shoulder"></div><div class="skeleton-body"><div class="skeleton-label"><div class="skeleton-line skeleton-line--short"></div><div class="skeleton-line skeleton-line--long"></div><div class="skeleton-line skeleton-line--mid"></div></div></div></div></div>
-                <div class="catalogue-item-info"><p class="catalogue-tag">Napa Valley · 2019</p><p class="catalogue-name">Opus One</p><p class="catalogue-type">Red, Bold</p></div>
-                <div class="catalogue-item-meta"><span class="wine-badge">15% ABV</span><span class="wine-badge">Meritage</span></div>
-                <p class="catalogue-price">₦220,000</p><button class="catalogue-add">Add</button>
+                <div class="catalogue-item-img">
+                  <div class="bottle-skeleton">
+                    <div class="skeleton-foil"></div>
+                    <div class="skeleton-neck"></div>
+                    <div class="skeleton-shoulder"></div>
+                    <div class="skeleton-body">
+                      <div class="skeleton-label">
+                        <div class="skeleton-line skeleton-line--short"></div>
+                        <div class="skeleton-line skeleton-line--long"></div>
+                        <div class="skeleton-line skeleton-line--mid"></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="catalogue-item-info">
+                  <p class="catalogue-tag">Napa Valley · 2019</p>
+                  <p class="catalogue-name">Opus One</p>
+                  <p class="catalogue-type">Red, Bold</p>
+                </div>
+                <div class="catalogue-item-meta">
+                  <span class="wine-badge">15% ABV</span
+                  ><span class="wine-badge">Meritage</span>
+                </div>
+                <p class="catalogue-price">₦220,000</p>
+                <button class="catalogue-add">Add</button>
               </div>
 
               <div class="catalogue-item" data-type="white">
-                <div class="catalogue-item-img"><div class="bottle-skeleton"><div class="skeleton-foil"></div><div class="skeleton-neck"></div><div class="skeleton-shoulder"></div><div class="skeleton-body"><div class="skeleton-label"><div class="skeleton-line skeleton-line--short"></div><div class="skeleton-line skeleton-line--long"></div><div class="skeleton-line skeleton-line--mid"></div></div></div></div></div>
-                <div class="catalogue-item-info"><p class="catalogue-tag">Burgundy · 2020</p><p class="catalogue-name">Chablis Premier Cru</p><p class="catalogue-type">White, Dry</p></div>
-                <div class="catalogue-item-meta"><span class="wine-badge">12.5% ABV</span><span class="wine-badge">Chardonnay</span></div>
-                <p class="catalogue-price">₦55,000</p><button class="catalogue-add">Add</button>
+                <div class="catalogue-item-img">
+                  <div class="bottle-skeleton">
+                    <div class="skeleton-foil"></div>
+                    <div class="skeleton-neck"></div>
+                    <div class="skeleton-shoulder"></div>
+                    <div class="skeleton-body">
+                      <div class="skeleton-label">
+                        <div class="skeleton-line skeleton-line--short"></div>
+                        <div class="skeleton-line skeleton-line--long"></div>
+                        <div class="skeleton-line skeleton-line--mid"></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="catalogue-item-info">
+                  <p class="catalogue-tag">Burgundy · 2020</p>
+                  <p class="catalogue-name">Chablis Premier Cru</p>
+                  <p class="catalogue-type">White, Dry</p>
+                </div>
+                <div class="catalogue-item-meta">
+                  <span class="wine-badge">12.5% ABV</span
+                  ><span class="wine-badge">Chardonnay</span>
+                </div>
+                <p class="catalogue-price">₦55,000</p>
+                <button class="catalogue-add">Add</button>
               </div>
 
               <div class="catalogue-item" data-type="red">
-                <div class="catalogue-item-img"><div class="bottle-skeleton"><div class="skeleton-foil"></div><div class="skeleton-neck"></div><div class="skeleton-shoulder"></div><div class="skeleton-body"><div class="skeleton-label"><div class="skeleton-line skeleton-line--short"></div><div class="skeleton-line skeleton-line--long"></div><div class="skeleton-line skeleton-line--mid"></div></div></div></div></div>
-                <div class="catalogue-item-info"><p class="catalogue-tag">Tuscany · 2018</p><p class="catalogue-name">Sassicaia</p><p class="catalogue-type">Red, Dry</p></div>
-                <div class="catalogue-item-meta"><span class="wine-badge">13.5% ABV</span><span class="wine-badge">Cabernet</span></div>
-                <p class="catalogue-price">₦145,000</p><button class="catalogue-add">Add</button>
+                <div class="catalogue-item-img">
+                  <div class="bottle-skeleton">
+                    <div class="skeleton-foil"></div>
+                    <div class="skeleton-neck"></div>
+                    <div class="skeleton-shoulder"></div>
+                    <div class="skeleton-body">
+                      <div class="skeleton-label">
+                        <div class="skeleton-line skeleton-line--short"></div>
+                        <div class="skeleton-line skeleton-line--long"></div>
+                        <div class="skeleton-line skeleton-line--mid"></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="catalogue-item-info">
+                  <p class="catalogue-tag">Tuscany · 2018</p>
+                  <p class="catalogue-name">Sassicaia</p>
+                  <p class="catalogue-type">Red, Dry</p>
+                </div>
+                <div class="catalogue-item-meta">
+                  <span class="wine-badge">13.5% ABV</span
+                  ><span class="wine-badge">Cabernet</span>
+                </div>
+                <p class="catalogue-price">₦145,000</p>
+                <button class="catalogue-add">Add</button>
               </div>
 
               <div class="catalogue-item" data-type="champagne">
-                <div class="catalogue-item-img"><div class="bottle-skeleton"><div class="skeleton-foil"></div><div class="skeleton-neck"></div><div class="skeleton-shoulder"></div><div class="skeleton-body"><div class="skeleton-label"><div class="skeleton-line skeleton-line--short"></div><div class="skeleton-line skeleton-line--long"></div><div class="skeleton-line skeleton-line--mid"></div></div></div></div></div>
-                <div class="catalogue-item-info"><p class="catalogue-tag">Épernay · 2013</p><p class="catalogue-name">Dom Pérignon</p><p class="catalogue-type">Champagne, Vintage</p></div>
-                <div class="catalogue-item-meta"><span class="wine-badge">12.5% ABV</span><span class="wine-badge">Blend</span></div>
-                <p class="catalogue-price">₦310,000</p><button class="catalogue-add">Add</button>
+                <div class="catalogue-item-img">
+                  <div class="bottle-skeleton">
+                    <div class="skeleton-foil"></div>
+                    <div class="skeleton-neck"></div>
+                    <div class="skeleton-shoulder"></div>
+                    <div class="skeleton-body">
+                      <div class="skeleton-label">
+                        <div class="skeleton-line skeleton-line--short"></div>
+                        <div class="skeleton-line skeleton-line--long"></div>
+                        <div class="skeleton-line skeleton-line--mid"></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="catalogue-item-info">
+                  <p class="catalogue-tag">Épernay · 2013</p>
+                  <p class="catalogue-name">Dom Pérignon</p>
+                  <p class="catalogue-type">Champagne, Vintage</p>
+                </div>
+                <div class="catalogue-item-meta">
+                  <span class="wine-badge">12.5% ABV</span
+                  ><span class="wine-badge">Blend</span>
+                </div>
+                <p class="catalogue-price">₦310,000</p>
+                <button class="catalogue-add">Add</button>
               </div>
 
               <div class="catalogue-item" data-type="rosé">
-                <div class="catalogue-item-img"><div class="bottle-skeleton"><div class="skeleton-foil"></div><div class="skeleton-neck"></div><div class="skeleton-shoulder"></div><div class="skeleton-body"><div class="skeleton-label"><div class="skeleton-line skeleton-line--short"></div><div class="skeleton-line skeleton-line--long"></div><div class="skeleton-line skeleton-line--mid"></div></div></div></div></div>
-                <div class="catalogue-item-info"><p class="catalogue-tag">Provence · 2022</p><p class="catalogue-name">Miraval Rosé</p><p class="catalogue-type">Rosé, Dry</p></div>
-                <div class="catalogue-item-meta"><span class="wine-badge">13% ABV</span><span class="wine-badge">Cinsault</span></div>
-                <p class="catalogue-price">₦38,000</p><button class="catalogue-add">Add</button>
+                <div class="catalogue-item-img">
+                  <div class="bottle-skeleton">
+                    <div class="skeleton-foil"></div>
+                    <div class="skeleton-neck"></div>
+                    <div class="skeleton-shoulder"></div>
+                    <div class="skeleton-body">
+                      <div class="skeleton-label">
+                        <div class="skeleton-line skeleton-line--short"></div>
+                        <div class="skeleton-line skeleton-line--long"></div>
+                        <div class="skeleton-line skeleton-line--mid"></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="catalogue-item-info">
+                  <p class="catalogue-tag">Provence · 2022</p>
+                  <p class="catalogue-name">Miraval Rosé</p>
+                  <p class="catalogue-type">Rosé, Dry</p>
+                </div>
+                <div class="catalogue-item-meta">
+                  <span class="wine-badge">13% ABV</span
+                  ><span class="wine-badge">Cinsault</span>
+                </div>
+                <p class="catalogue-price">₦38,000</p>
+                <button class="catalogue-add">Add</button>
               </div>
 
               <div class="catalogue-item" data-type="red">
-                <div class="catalogue-item-img"><div class="bottle-skeleton"><div class="skeleton-foil"></div><div class="skeleton-neck"></div><div class="skeleton-shoulder"></div><div class="skeleton-body"><div class="skeleton-label"><div class="skeleton-line skeleton-line--short"></div><div class="skeleton-line skeleton-line--long"></div><div class="skeleton-line skeleton-line--mid"></div></div></div></div></div>
-                <div class="catalogue-item-info"><p class="catalogue-tag">Rhône · 2019</p><p class="catalogue-name">Châteauneuf-du-Pape</p><p class="catalogue-type">Red, Bold</p></div>
-                <div class="catalogue-item-meta"><span class="wine-badge">14.5% ABV</span><span class="wine-badge">Grenache</span></div>
-                <p class="catalogue-price">₦75,000</p><button class="catalogue-add">Add</button>
+                <div class="catalogue-item-img">
+                  <div class="bottle-skeleton">
+                    <div class="skeleton-foil"></div>
+                    <div class="skeleton-neck"></div>
+                    <div class="skeleton-shoulder"></div>
+                    <div class="skeleton-body">
+                      <div class="skeleton-label">
+                        <div class="skeleton-line skeleton-line--short"></div>
+                        <div class="skeleton-line skeleton-line--long"></div>
+                        <div class="skeleton-line skeleton-line--mid"></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="catalogue-item-info">
+                  <p class="catalogue-tag">Rhône · 2019</p>
+                  <p class="catalogue-name">Châteauneuf-du-Pape</p>
+                  <p class="catalogue-type">Red, Bold</p>
+                </div>
+                <div class="catalogue-item-meta">
+                  <span class="wine-badge">14.5% ABV</span
+                  ><span class="wine-badge">Grenache</span>
+                </div>
+                <p class="catalogue-price">₦75,000</p>
+                <button class="catalogue-add">Add</button>
               </div>
 
               <div class="catalogue-item" data-type="white">
-                <div class="catalogue-item-img"><div class="bottle-skeleton"><div class="skeleton-foil"></div><div class="skeleton-neck"></div><div class="skeleton-shoulder"></div><div class="skeleton-body"><div class="skeleton-label"><div class="skeleton-line skeleton-line--short"></div><div class="skeleton-line skeleton-line--long"></div><div class="skeleton-line skeleton-line--mid"></div></div></div></div></div>
-                <div class="catalogue-item-info"><p class="catalogue-tag">Loire Valley · 2021</p><p class="catalogue-name">Sancerre Blanc</p><p class="catalogue-type">White, Crisp</p></div>
-                <div class="catalogue-item-meta"><span class="wine-badge">12% ABV</span><span class="wine-badge">Sauvignon Blanc</span></div>
-                <p class="catalogue-price">₦48,000</p><button class="catalogue-add">Add</button>
+                <div class="catalogue-item-img">
+                  <div class="bottle-skeleton">
+                    <div class="skeleton-foil"></div>
+                    <div class="skeleton-neck"></div>
+                    <div class="skeleton-shoulder"></div>
+                    <div class="skeleton-body">
+                      <div class="skeleton-label">
+                        <div class="skeleton-line skeleton-line--short"></div>
+                        <div class="skeleton-line skeleton-line--long"></div>
+                        <div class="skeleton-line skeleton-line--mid"></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="catalogue-item-info">
+                  <p class="catalogue-tag">Loire Valley · 2021</p>
+                  <p class="catalogue-name">Sancerre Blanc</p>
+                  <p class="catalogue-type">White, Crisp</p>
+                </div>
+                <div class="catalogue-item-meta">
+                  <span class="wine-badge">12% ABV</span
+                  ><span class="wine-badge">Sauvignon Blanc</span>
+                </div>
+                <p class="catalogue-price">₦48,000</p>
+                <button class="catalogue-add">Add</button>
               </div>
 
               <div class="catalogue-item" data-type="red">
-                <div class="catalogue-item-img"><div class="bottle-skeleton"><div class="skeleton-foil"></div><div class="skeleton-neck"></div><div class="skeleton-shoulder"></div><div class="skeleton-body"><div class="skeleton-label"><div class="skeleton-line skeleton-line--short"></div><div class="skeleton-line skeleton-line--long"></div><div class="skeleton-line skeleton-line--mid"></div></div></div></div></div>
-                <div class="catalogue-item-info"><p class="catalogue-tag">Veneto · 2017</p><p class="catalogue-name">Amarone della Valpolicella</p><p class="catalogue-type">Red, Full Bodied</p></div>
-                <div class="catalogue-item-meta"><span class="wine-badge">15.5% ABV</span><span class="wine-badge">Corvina</span></div>
-                <p class="catalogue-price">₦165,000</p><button class="catalogue-add">Add</button>
+                <div class="catalogue-item-img">
+                  <div class="bottle-skeleton">
+                    <div class="skeleton-foil"></div>
+                    <div class="skeleton-neck"></div>
+                    <div class="skeleton-shoulder"></div>
+                    <div class="skeleton-body">
+                      <div class="skeleton-label">
+                        <div class="skeleton-line skeleton-line--short"></div>
+                        <div class="skeleton-line skeleton-line--long"></div>
+                        <div class="skeleton-line skeleton-line--mid"></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="catalogue-item-info">
+                  <p class="catalogue-tag">Veneto · 2017</p>
+                  <p class="catalogue-name">Amarone della Valpolicella</p>
+                  <p class="catalogue-type">Red, Full Bodied</p>
+                </div>
+                <div class="catalogue-item-meta">
+                  <span class="wine-badge">15.5% ABV</span
+                  ><span class="wine-badge">Corvina</span>
+                </div>
+                <p class="catalogue-price">₦165,000</p>
+                <button class="catalogue-add">Add</button>
               </div>
 
               <div class="catalogue-item" data-type="champagne">
-                <div class="catalogue-item-img"><div class="bottle-skeleton"><div class="skeleton-foil"></div><div class="skeleton-neck"></div><div class="skeleton-shoulder"></div><div class="skeleton-body"><div class="skeleton-label"><div class="skeleton-line skeleton-line--short"></div><div class="skeleton-line skeleton-line--long"></div><div class="skeleton-line skeleton-line--mid"></div></div></div></div></div>
-                <div class="catalogue-item-info"><p class="catalogue-tag">Reims · 2002</p><p class="catalogue-name">Krug Clos d'Ambonnay</p><p class="catalogue-type">Champagne, Prestige</p></div>
-                <div class="catalogue-item-meta"><span class="wine-badge">12% ABV</span><span class="wine-badge">Vintage</span></div>
-                <p class="catalogue-price">₦425,000</p><button class="catalogue-add">Add</button>
+                <div class="catalogue-item-img">
+                  <div class="bottle-skeleton">
+                    <div class="skeleton-foil"></div>
+                    <div class="skeleton-neck"></div>
+                    <div class="skeleton-shoulder"></div>
+                    <div class="skeleton-body">
+                      <div class="skeleton-label">
+                        <div class="skeleton-line skeleton-line--short"></div>
+                        <div class="skeleton-line skeleton-line--long"></div>
+                        <div class="skeleton-line skeleton-line--mid"></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="catalogue-item-info">
+                  <p class="catalogue-tag">Reims · 2002</p>
+                  <p class="catalogue-name">Krug Clos d'Ambonnay</p>
+                  <p class="catalogue-type">Champagne, Prestige</p>
+                </div>
+                <div class="catalogue-item-meta">
+                  <span class="wine-badge">12% ABV</span
+                  ><span class="wine-badge">Vintage</span>
+                </div>
+                <p class="catalogue-price">₦425,000</p>
+                <button class="catalogue-add">Add</button>
               </div>
 
               <div class="catalogue-item" data-type="rosé">
-                <div class="catalogue-item-img"><div class="bottle-skeleton"><div class="skeleton-foil"></div><div class="skeleton-neck"></div><div class="skeleton-shoulder"></div><div class="skeleton-body"><div class="skeleton-label"><div class="skeleton-line skeleton-line--short"></div><div class="skeleton-line skeleton-line--long"></div><div class="skeleton-line skeleton-line--mid"></div></div></div></div></div>
-                <div class="catalogue-item-info"><p class="catalogue-tag">Provence · 2021</p><p class="catalogue-name">Bandol Rosé</p><p class="catalogue-type">Rosé, Structured</p></div>
-                <div class="catalogue-item-meta"><span class="wine-badge">13.5% ABV</span><span class="wine-badge">Mourvèdre</span></div>
-                <p class="catalogue-price">₦51,000</p><button class="catalogue-add">Add</button>
+                <div class="catalogue-item-img">
+                  <div class="bottle-skeleton">
+                    <div class="skeleton-foil"></div>
+                    <div class="skeleton-neck"></div>
+                    <div class="skeleton-shoulder"></div>
+                    <div class="skeleton-body">
+                      <div class="skeleton-label">
+                        <div class="skeleton-line skeleton-line--short"></div>
+                        <div class="skeleton-line skeleton-line--long"></div>
+                        <div class="skeleton-line skeleton-line--mid"></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="catalogue-item-info">
+                  <p class="catalogue-tag">Provence · 2021</p>
+                  <p class="catalogue-name">Bandol Rosé</p>
+                  <p class="catalogue-type">Rosé, Structured</p>
+                </div>
+                <div class="catalogue-item-meta">
+                  <span class="wine-badge">13.5% ABV</span
+                  ><span class="wine-badge">Mourvèdre</span>
+                </div>
+                <p class="catalogue-price">₦51,000</p>
+                <button class="catalogue-add">Add</button>
               </div>
 
               <div class="catalogue-item" data-type="red">
-                <div class="catalogue-item-img"><div class="bottle-skeleton"><div class="skeleton-foil"></div><div class="skeleton-neck"></div><div class="skeleton-shoulder"></div><div class="skeleton-body"><div class="skeleton-label"><div class="skeleton-line skeleton-line--short"></div><div class="skeleton-line skeleton-line--long"></div><div class="skeleton-line skeleton-line--mid"></div></div></div></div></div>
-                <div class="catalogue-item-info"><p class="catalogue-tag">Piedmont · 2018</p><p class="catalogue-name">Barolo DOCG</p><p class="catalogue-type">Red, Elegant</p></div>
-                <div class="catalogue-item-meta"><span class="wine-badge">14% ABV</span><span class="wine-badge">Nebbiolo</span></div>
-                <p class="catalogue-price">₦88,000</p><button class="catalogue-add">Add</button>
+                <div class="catalogue-item-img">
+                  <div class="bottle-skeleton">
+                    <div class="skeleton-foil"></div>
+                    <div class="skeleton-neck"></div>
+                    <div class="skeleton-shoulder"></div>
+                    <div class="skeleton-body">
+                      <div class="skeleton-label">
+                        <div class="skeleton-line skeleton-line--short"></div>
+                        <div class="skeleton-line skeleton-line--long"></div>
+                        <div class="skeleton-line skeleton-line--mid"></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="catalogue-item-info">
+                  <p class="catalogue-tag">Piedmont · 2018</p>
+                  <p class="catalogue-name">Barolo DOCG</p>
+                  <p class="catalogue-type">Red, Elegant</p>
+                </div>
+                <div class="catalogue-item-meta">
+                  <span class="wine-badge">14% ABV</span
+                  ><span class="wine-badge">Nebbiolo</span>
+                </div>
+                <p class="catalogue-price">₦88,000</p>
+                <button class="catalogue-add">Add</button>
               </div>
 
               <div class="catalogue-item" data-type="white">
-                <div class="catalogue-item-img"><div class="bottle-skeleton"><div class="skeleton-foil"></div><div class="skeleton-neck"></div><div class="skeleton-shoulder"></div><div class="skeleton-body"><div class="skeleton-label"><div class="skeleton-line skeleton-line--short"></div><div class="skeleton-line skeleton-line--long"></div><div class="skeleton-line skeleton-line--mid"></div></div></div></div></div>
-                <div class="catalogue-item-info"><p class="catalogue-tag">Alsace · 2020</p><p class="catalogue-name">Riesling Grand Cru</p><p class="catalogue-type">White, Floral</p></div>
-                <div class="catalogue-item-meta"><span class="wine-badge">12.5% ABV</span><span class="wine-badge">Riesling</span></div>
-                <p class="catalogue-price">₦62,000</p><button class="catalogue-add">Add</button>
+                <div class="catalogue-item-img">
+                  <div class="bottle-skeleton">
+                    <div class="skeleton-foil"></div>
+                    <div class="skeleton-neck"></div>
+                    <div class="skeleton-shoulder"></div>
+                    <div class="skeleton-body">
+                      <div class="skeleton-label">
+                        <div class="skeleton-line skeleton-line--short"></div>
+                        <div class="skeleton-line skeleton-line--long"></div>
+                        <div class="skeleton-line skeleton-line--mid"></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="catalogue-item-info">
+                  <p class="catalogue-tag">Alsace · 2020</p>
+                  <p class="catalogue-name">Riesling Grand Cru</p>
+                  <p class="catalogue-type">White, Floral</p>
+                </div>
+                <div class="catalogue-item-meta">
+                  <span class="wine-badge">12.5% ABV</span
+                  ><span class="wine-badge">Riesling</span>
+                </div>
+                <p class="catalogue-price">₦62,000</p>
+                <button class="catalogue-add">Add</button>
               </div>
 
               <div class="catalogue-item" data-type="red">
-                <div class="catalogue-item-img"><div class="bottle-skeleton"><div class="skeleton-foil"></div><div class="skeleton-neck"></div><div class="skeleton-shoulder"></div><div class="skeleton-body"><div class="skeleton-label"><div class="skeleton-line skeleton-line--short"></div><div class="skeleton-line skeleton-line--long"></div><div class="skeleton-line skeleton-line--mid"></div></div></div></div></div>
-                <div class="catalogue-item-info"><p class="catalogue-tag">Tuscany · 2016</p><p class="catalogue-name">Brunello di Montalcino</p><p class="catalogue-type">Red, Complex</p></div>
-                <div class="catalogue-item-meta"><span class="wine-badge">14.5% ABV</span><span class="wine-badge">Brunello</span></div>
-                <p class="catalogue-price">₦135,000</p><button class="catalogue-add">Add</button>
+                <div class="catalogue-item-img">
+                  <div class="bottle-skeleton">
+                    <div class="skeleton-foil"></div>
+                    <div class="skeleton-neck"></div>
+                    <div class="skeleton-shoulder"></div>
+                    <div class="skeleton-body">
+                      <div class="skeleton-label">
+                        <div class="skeleton-line skeleton-line--short"></div>
+                        <div class="skeleton-line skeleton-line--long"></div>
+                        <div class="skeleton-line skeleton-line--mid"></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="catalogue-item-info">
+                  <p class="catalogue-tag">Tuscany · 2016</p>
+                  <p class="catalogue-name">Brunello di Montalcino</p>
+                  <p class="catalogue-type">Red, Complex</p>
+                </div>
+                <div class="catalogue-item-meta">
+                  <span class="wine-badge">14.5% ABV</span
+                  ><span class="wine-badge">Brunello</span>
+                </div>
+                <p class="catalogue-price">₦135,000</p>
+                <button class="catalogue-add">Add</button>
               </div>
 
               <div class="catalogue-item" data-type="champagne">
-                <div class="catalogue-item-img"><div class="bottle-skeleton"><div class="skeleton-foil"></div><div class="skeleton-neck"></div><div class="skeleton-shoulder"></div><div class="skeleton-body"><div class="skeleton-label"><div class="skeleton-line skeleton-line--short"></div><div class="skeleton-line skeleton-line--long"></div><div class="skeleton-line skeleton-line--mid"></div></div></div></div></div>
-                <div class="catalogue-item-info"><p class="catalogue-tag">Champagne · NV</p><p class="catalogue-name">Laurent-Perrier Grand Siècle</p><p class="catalogue-type">Champagne, Prestige</p></div>
-                <div class="catalogue-item-meta"><span class="wine-badge">12% ABV</span><span class="wine-badge">Multi-Vintage</span></div>
-                <p class="catalogue-price">₦185,000</p><button class="catalogue-add">Add</button>
+                <div class="catalogue-item-img">
+                  <div class="bottle-skeleton">
+                    <div class="skeleton-foil"></div>
+                    <div class="skeleton-neck"></div>
+                    <div class="skeleton-shoulder"></div>
+                    <div class="skeleton-body">
+                      <div class="skeleton-label">
+                        <div class="skeleton-line skeleton-line--short"></div>
+                        <div class="skeleton-line skeleton-line--long"></div>
+                        <div class="skeleton-line skeleton-line--mid"></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="catalogue-item-info">
+                  <p class="catalogue-tag">Champagne · NV</p>
+                  <p class="catalogue-name">Laurent-Perrier Grand Siècle</p>
+                  <p class="catalogue-type">Champagne, Prestige</p>
+                </div>
+                <div class="catalogue-item-meta">
+                  <span class="wine-badge">12% ABV</span
+                  ><span class="wine-badge">Multi-Vintage</span>
+                </div>
+                <p class="catalogue-price">₦185,000</p>
+                <button class="catalogue-add">Add</button>
               </div>
 
               <div class="catalogue-item" data-type="white">
-                <div class="catalogue-item-img"><div class="bottle-skeleton"><div class="skeleton-foil"></div><div class="skeleton-neck"></div><div class="skeleton-shoulder"></div><div class="skeleton-body"><div class="skeleton-label"><div class="skeleton-line skeleton-line--short"></div><div class="skeleton-line skeleton-line--long"></div><div class="skeleton-line skeleton-line--mid"></div></div></div></div></div>
-                <div class="catalogue-item-info"><p class="catalogue-tag">Burgundy · 2019</p><p class="catalogue-name">Puligny-Montrachet</p><p class="catalogue-type">White, Mineral</p></div>
-                <div class="catalogue-item-meta"><span class="wine-badge">13% ABV</span><span class="wine-badge">Chardonnay</span></div>
-                <p class="catalogue-price">₦125,000</p><button class="catalogue-add">Add</button>
+                <div class="catalogue-item-img">
+                  <div class="bottle-skeleton">
+                    <div class="skeleton-foil"></div>
+                    <div class="skeleton-neck"></div>
+                    <div class="skeleton-shoulder"></div>
+                    <div class="skeleton-body">
+                      <div class="skeleton-label">
+                        <div class="skeleton-line skeleton-line--short"></div>
+                        <div class="skeleton-line skeleton-line--long"></div>
+                        <div class="skeleton-line skeleton-line--mid"></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="catalogue-item-info">
+                  <p class="catalogue-tag">Burgundy · 2019</p>
+                  <p class="catalogue-name">Puligny-Montrachet</p>
+                  <p class="catalogue-type">White, Mineral</p>
+                </div>
+                <div class="catalogue-item-meta">
+                  <span class="wine-badge">13% ABV</span
+                  ><span class="wine-badge">Chardonnay</span>
+                </div>
+                <p class="catalogue-price">₦125,000</p>
+                <button class="catalogue-add">Add</button>
               </div>
-
             </div>
           </div>
         </div>
@@ -344,21 +833,37 @@
               <p class="content-eyebrow">Got questions?</p>
               <h2 class="content-title">Ask Us Anything</h2>
               <div class="content-rule"></div>
-              <p class="content-desc">Whether it's about a specific wine, delivery, or pairing advice — send us your question and we'll get back to you personally.</p>
+              <p class="content-desc">
+                Whether it's about a specific wine, delivery, or pairing advice
+                — send us your question and we'll get back to you personally.
+              </p>
               <form class="faq-form" onsubmit="handleFaqSubmit(event)">
                 <div class="form-group">
                   <label class="form-label">Your Name</label>
-                  <input class="form-input" type="text" placeholder="e.g. Adaeze Okonkwo" />
+                  <input
+                    class="form-input"
+                    type="text"
+                    placeholder="e.g. Adaeze Okonkwo"
+                  />
                 </div>
                 <div class="form-group">
                   <label class="form-label">Email Address</label>
-                  <input class="form-input" type="email" placeholder="you@example.com" />
+                  <input
+                    class="form-input"
+                    type="email"
+                    placeholder="you@example.com"
+                  />
                 </div>
                 <div class="form-group">
                   <label class="form-label">Your Question</label>
-                  <textarea class="form-input form-textarea" placeholder="What would you like to know?"></textarea>
+                  <textarea
+                    class="form-input form-textarea"
+                    placeholder="What would you like to know?"
+                  ></textarea>
                 </div>
-                <button type="submit" class="form-submit">Send Question →</button>
+                <button type="submit" class="form-submit">
+                  Send Question →
+                </button>
               </form>
             </div>
           </div>
@@ -374,17 +879,27 @@
               <div class="contact-list">
                 <div class="contact-item">
                   <span class="contact-label">Address</span>
-                  <span class="contact-value">14 Victoria Island Close,<br />Lagos, Nigeria</span>
+                  <span class="contact-value"
+                    >14 Victoria Island Close,<br />Lagos, Nigeria</span
+                  >
                 </div>
                 <div class="contact-divider"></div>
                 <div class="contact-item">
                   <span class="contact-label">Email</span>
-                  <a class="contact-value contact-link" href="mailto:hello@ijswine.com">hello@ijswine.com</a>
+                  <a
+                    class="contact-value contact-link"
+                    href="mailto:hello@ijswine.com"
+                    >hello@ijswine.com</a
+                  >
                 </div>
                 <div class="contact-divider"></div>
                 <div class="contact-item">
                   <span class="contact-label">Phone</span>
-                  <a class="contact-value contact-link" href="tel:+2348012345678">+234 801 234 5678</a>
+                  <a
+                    class="contact-value contact-link"
+                    href="tel:+2348012345678"
+                    >+234 801 234 5678</a
+                  >
                 </div>
                 <div class="contact-divider"></div>
                 <div class="contact-item">
@@ -399,18 +914,18 @@
         <!-- ═══ TAB: CART ═══ -->
         <div class="tab-panel" id="tab-cart">
           <div class="cart-panel">
-
             <!-- LEFT: cart items list -->
             <div class="cart-items-col">
               <div class="cart-col-header">
                 <p class="cart-col-eyebrow">Your Selection</p>
                 <h2 class="cart-col-title">Cart</h2>
-                <span class="cart-col-count" id="cart-count-label">0 items</span>
+                <span class="cart-col-count" id="cart-count-label"
+                  >0 items</span
+                >
               </div>
 
               <!-- placeholder rows — replace with real items via JS -->
               <div class="cart-list" id="cart-list">
-
                 <div class="cart-row">
                   <div class="cart-row-img">
                     <div class="bottle-skeleton">
@@ -476,7 +991,6 @@
                   <p class="cart-row-price">₦95,000</p>
                   <button class="cart-remove">×</button>
                 </div>
-
               </div>
             </div>
 
@@ -507,14 +1021,174 @@
               <div class="cart-summary-rule"></div>
 
               <div class="cart-promo">
-                <input class="cart-promo-input" type="text" placeholder="Promo code" />
+                <input
+                  class="cart-promo-input"
+                  type="text"
+                  placeholder="Promo code"
+                />
                 <button class="cart-promo-btn">Apply</button>
               </div>
 
               <button class="cart-checkout-btn">Proceed to Checkout →</button>
               <p class="cart-note">Secure checkout · Delivery within Lagos</p>
             </div>
+          </div>
+          <!-- CHECKOUT PANEL — hidden by default, shown when Proceed is clicked -->
+          <div class="checkout-panel" id="checkout-panel" style="display: none">
+            <div class="checkout-inner">
+              <div class="checkout-header">
+                <button class="checkout-back" id="checkout-back">
+                  ← Back to Cart
+                </button>
+                <p class="checkout-eyebrow">Secure Payment</p>
+                <h2 class="checkout-title">Checkout</h2>
+                <div class="content-rule"></div>
+              </div>
 
+              <div class="checkout-body">
+                <!-- LEFT: Bank details + order summary -->
+                <div class="checkout-left">
+                  <div class="checkout-section">
+                    <p class="checkout-section-label">Pay via Bank Transfer</p>
+
+                    <div class="checkout-bank-card">
+                      <div class="bank-row">
+                        <span class="bank-label">Bank</span>
+                        <span class="bank-value">Guaranty Trust Bank</span>
+                      </div>
+                      <div class="bank-row">
+                        <span class="bank-label">Account Name</span>
+                        <span class="bank-value">IJ's Wine Shop Ltd</span>
+                      </div>
+                      <div class="bank-row">
+                        <span class="bank-label">Account Number</span>
+                        <div class="bank-acct-wrap">
+                          <span
+                            class="bank-value bank-acct-num"
+                            id="acct-number"
+                            >0123456789</span
+                          >
+                          <button
+                            class="bank-copy-btn"
+                            id="copy-acct"
+                            title="Copy account number"
+                          >
+                            <svg
+                              width="14"
+                              height="14"
+                              viewBox="0 0 24 24"
+                              fill="none"
+                              stroke="currentColor"
+                              stroke-width="2"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                            >
+                              <rect x="9" y="9" width="13" height="13" rx="2" />
+                              <path
+                                d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"
+                              />
+                            </svg>
+                          </button>
+                          <span class="bank-copy-confirm" id="copy-confirm"
+                            >Copied!</span
+                          >
+                        </div>
+                      </div>
+                      <div class="bank-row">
+                        <span class="bank-label">Sort Code</span>
+                        <span class="bank-value">058-152-367</span>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="checkout-section">
+                    <p class="checkout-section-label">Contact for Delivery</p>
+                    <div class="checkout-bank-card">
+                      <div class="bank-row">
+                        <span class="bank-label">Phone</span>
+                        <a
+                          class="bank-value bank-link"
+                          href="tel:+2348012345678"
+                          >+234 801 234 5678</a
+                        >
+                      </div>
+                      <div class="bank-row">
+                        <span class="bank-label">Email</span>
+                        <a
+                          class="bank-value bank-link"
+                          href="mailto:hello@ijswine.com"
+                          >hello@ijswine.com</a
+                        >
+                      </div>
+                      <div class="bank-row">
+                        <span class="bank-label">Address</span>
+                        <span class="bank-value"
+                          >14 Victoria Island Close, Lagos</span
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- RIGHT: Order summary + confirm -->
+                <div class="checkout-right">
+                  <div class="checkout-section">
+                    <p class="checkout-section-label">Your Order</p>
+
+                    <div class="checkout-order-list" id="checkout-order-list">
+                      <!-- populated by JS from cart rows -->
+                    </div>
+
+                    <div class="checkout-totals">
+                      <div class="checkout-total-row">
+                        <span class="checkout-total-label">Items</span>
+                        <span
+                          class="checkout-total-value"
+                          id="checkout-item-count"
+                          >—</span
+                        >
+                      </div>
+                      <div class="checkout-total-row">
+                        <span class="checkout-total-label">Subtotal</span>
+                        <span
+                          class="checkout-total-value"
+                          id="checkout-subtotal"
+                          >—</span
+                        >
+                      </div>
+                      <div class="checkout-total-row">
+                        <span class="checkout-total-label">Delivery</span>
+                        <span class="checkout-total-value">₦5,000</span>
+                      </div>
+                      <div class="checkout-total-row checkout-total-final">
+                        <span class="checkout-total-label">Total Due</span>
+                        <span
+                          class="checkout-total-value gold"
+                          id="checkout-total"
+                          >—</span
+                        >
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="checkout-section">
+                    <p class="checkout-section-label">After Payment</p>
+                    <p class="checkout-note-text">
+                      Transfer the exact amount above to the account details
+                      provided. Then tap the button below — it will open
+                      WhatsApp so you can send us your proof of payment and
+                      delivery address.
+                    </p>
+                    <button
+                      class="checkout-confirm-btn"
+                      id="checkout-confirm-btn"
+                    >
+                      ✓ I've Completed My Payment
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
 
@@ -522,7 +1196,6 @@
           <div class="wines-scrollbar-thumb" id="thumb1"></div>
           <div class="wines-scrollbar-thumb" id="thumb2"></div>
         </div>
-
       </main>
     </div>
 
